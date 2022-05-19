@@ -1,0 +1,19 @@
+name: GolfHandler
+version: '${project.version}'
+main: tokyo.ramune.golfhandler.GolfPlugin
+api-version: 1.17
+depend: [ProtocolLib]
+commands:
+  golf:
+    aliases: gl
+permissions:
+  GolfHandler.command.help:
+    default: true
+  GolfHandler.command.get:
+    default: op
+  GolfHandler.command.uuid:
+    default: op
+  GolfHandler.command.map:
+    default: op
+  GolfHandler.command.stage:
+    default: op
